@@ -1,0 +1,77 @@
+{
+  "frame_id": 27,
+  "best_match": {
+    "osm_idx": "('way', 809982457)",
+    "centroid_lat": 49.01125806875071,
+    "centroid_lon": 8.422619672867524,
+    "dist_m": 26.15,
+    "angle_off_deg": 10.12,
+    "footprint_w_m": 15.92,
+    "score": 54.79,
+    "score_angle": 26.5,
+    "score_prox": 10.82,
+    "score_width": 17.47
+  },
+  "all_candidates": [
+    {
+      "osm_idx": "('way', 809982457)",
+      "centroid_lat": 49.01125806875071,
+      "centroid_lon": 8.422619672867524,
+      "dist_m": 26.15,
+      "angle_off_deg": 10.12,
+      "footprint_w_m": 15.92,
+      "score": 54.79,
+      "score_angle": 26.5,
+      "score_prox": 10.82,
+      "score_width": 17.47
+    },
+    {
+      "osm_idx": "('way', 809982458)",
+      "centroid_lat": 49.01139306623132,
+      "centroid_lon": 8.42264668423376,
+      "dist_m": 34.54,
+      "angle_off_deg": 14.11,
+      "footprint_w_m": 21.37,
+      "score": 46.05,
+      "score_angle": 21.19,
+      "score_prox": 7.11,
+      "score_width": 17.74
+    },
+    {
+      "osm_idx": "('way', 772935986)",
+      "centroid_lat": 49.01196627812531,
+      "centroid_lon": 8.42195405237664,
+      "dist_m": 115.96,
+      "angle_off_deg": 13.5,
+      "footprint_w_m": 29.35,
+      "score": 29.56,
+      "score_angle": 22.0,
+      "score_prox": 0.12,
+      "score_width": 7.44
+    },
+    {
+      "osm_idx": "('way', 118192368)",
+      "centroid_lat": 49.01122991997018,
+      "centroid_lon": 8.422381877098765,
+      "dist_m": 41.49,
+      "angle_off_deg": 25.49,
+      "footprint_w_m": 22.8,
+      "score": 26.9,
+      "score_angle": 6.01,
+      "score_prox": 5.03,
+      "score_width": 15.86
+    },
+    {
+      "osm_idx": "('way', 991445251)",
+      "centroid_lat": 49.012050524840284,
+      "centroid_lon": 8.422178433608662,
+      "dist_m": 114.7,
+      "angle_off_deg": 22.87,
+      "footprint_w_m": 18.97,
+      "score": 14.51,
+      "score_angle": 9.51,
+      "score_prox": 0.13,
+      "score_width": 4.88
+    }
+  ]
+}

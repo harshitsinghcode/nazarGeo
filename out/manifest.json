@@ -1,0 +1,2466 @@
+[
+  {
+    "frame_id": 0,
+    "timestamp": 1317022472.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000000.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000000.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011212804408,
+      "longitude": 8.4228850417969,
+      "heading_deg": 289.9897327791381
+    }
+  },
+  {
+    "frame_id": 1,
+    "timestamp": 1317022472.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000001.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000001.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011210234321645,
+      "longitude": 8.422886433553167,
+      "heading_deg": 290.8133776946807
+    }
+  },
+  {
+    "frame_id": 2,
+    "timestamp": 1317022472.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000002.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000002.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011207605583444,
+      "longitude": 8.422887772308243,
+      "heading_deg": 291.53862901559484
+    }
+  },
+  {
+    "frame_id": 3,
+    "timestamp": 1317022472.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000003.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000003.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0112048469453,
+      "longitude": 8.422889004027352,
+      "heading_deg": 292.25069711365154
+    }
+  },
+  {
+    "frame_id": 4,
+    "timestamp": 1317022472.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000004.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000004.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01120212888541,
+      "longitude": 8.422890197023062,
+      "heading_deg": 292.97712648283357
+    }
+  },
+  {
+    "frame_id": 5,
+    "timestamp": 1317022472.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000005.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000005.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01119959510768,
+      "longitude": 8.422891617085892,
+      "heading_deg": 293.69678588066705
+    }
+  },
+  {
+    "frame_id": 6,
+    "timestamp": 1317022472.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000006.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000006.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01119727560376,
+      "longitude": 8.422893114552446,
+      "heading_deg": 294.41470693269144
+    }
+  },
+  {
+    "frame_id": 7,
+    "timestamp": 1317022473.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000007.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000007.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01119498853421,
+      "longitude": 8.422894684399221,
+      "heading_deg": 295.11558577554837
+    }
+  },
+  {
+    "frame_id": 8,
+    "timestamp": 1317022473.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000008.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000008.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011192794802426,
+      "longitude": 8.422896174120202,
+      "heading_deg": 295.7885835227812
+    }
+  },
+  {
+    "frame_id": 9,
+    "timestamp": 1317022473.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000009.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000009.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011190508083075,
+      "longitude": 8.422897715367354,
+      "heading_deg": 296.4473501590081
+    }
+  },
+  {
+    "frame_id": 10,
+    "timestamp": 1317022473.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000010.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000010.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011188202596315,
+      "longitude": 8.422899384471652,
+      "heading_deg": 297.10095220480764
+    }
+  },
+  {
+    "frame_id": 11,
+    "timestamp": 1317022473.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000011.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000011.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01118579093007,
+      "longitude": 8.42290105614888,
+      "heading_deg": 297.7717109331212
+    }
+  },
+  {
+    "frame_id": 12,
+    "timestamp": 1317022473.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000012.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000012.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01118326632652,
+      "longitude": 8.422902703724885,
+      "heading_deg": 298.42977213021226
+    }
+  },
+  {
+    "frame_id": 13,
+    "timestamp": 1317022473.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000013.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000013.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011180699787296,
+      "longitude": 8.422904331373688,
+      "heading_deg": 299.0724369684256
+    }
+  },
+  {
+    "frame_id": 14,
+    "timestamp": 1317022473.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000014.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000014.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01117820376933,
+      "longitude": 8.422906024624902,
+      "heading_deg": 299.73386398183806
+    }
+  },
+  {
+    "frame_id": 15,
+    "timestamp": 1317022473.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000015.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000015.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0111758401818,
+      "longitude": 8.422907805063758,
+      "heading_deg": 300.4087868058203
+    }
+  },
+  {
+    "frame_id": 16,
+    "timestamp": 1317022473.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000016.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000016.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011173445068806,
+      "longitude": 8.422909663426811,
+      "heading_deg": 301.05056815679933
+    }
+  },
+  {
+    "frame_id": 17,
+    "timestamp": 1317022474.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000017.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000017.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01117094844184,
+      "longitude": 8.422911579930263,
+      "heading_deg": 301.66348372394947
+    }
+  },
+  {
+    "frame_id": 18,
+    "timestamp": 1317022474.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000018.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000018.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01116843415537,
+      "longitude": 8.422913517682296,
+      "heading_deg": 302.2838668789421
+    }
+  },
+  {
+    "frame_id": 19,
+    "timestamp": 1317022474.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000019.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000019.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01116597365084,
+      "longitude": 8.42291555356692,
+      "heading_deg": 302.92928720450834
+    }
+  },
+  {
+    "frame_id": 20,
+    "timestamp": 1317022474.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000020.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000020.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011163576932624,
+      "longitude": 8.422917686451724,
+      "heading_deg": 303.6043183416298
+    }
+  },
+  {
+    "frame_id": 21,
+    "timestamp": 1317022474.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000021.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000021.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01116120701812,
+      "longitude": 8.42291990707374,
+      "heading_deg": 304.2881961143098
+    }
+  },
+  {
+    "frame_id": 22,
+    "timestamp": 1317022474.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000022.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000022.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011158828731176,
+      "longitude": 8.422922226071348,
+      "heading_deg": 304.9637469051046
+    }
+  },
+  {
+    "frame_id": 23,
+    "timestamp": 1317022474.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000023.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000023.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01115646003911,
+      "longitude": 8.42292463174218,
+      "heading_deg": 305.64672748938517
+    }
+  },
+  {
+    "frame_id": 24,
+    "timestamp": 1317022474.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000024.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000024.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011154130605895,
+      "longitude": 8.422927122915596,
+      "heading_deg": 306.3273038803553
+    }
+  },
+  {
+    "frame_id": 25,
+    "timestamp": 1317022474.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000025.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000025.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01115178163664,
+      "longitude": 8.422929643126638,
+      "heading_deg": 306.98995426306203
+    }
+  },
+  {
+    "frame_id": 26,
+    "timestamp": 1317022474.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000026.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000026.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01114940750201,
+      "longitude": 8.422932227791783,
+      "heading_deg": 307.6381429833447
+    }
+  },
+  {
+    "frame_id": 27,
+    "timestamp": 1317022475.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000027.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000027.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01114707522977,
+      "longitude": 8.42293482362666,
+      "heading_deg": 308.35737379225924
+    }
+  },
+  {
+    "frame_id": 28,
+    "timestamp": 1317022475.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000028.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000028.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01114475033915,
+      "longitude": 8.422937447678597,
+      "heading_deg": 309.0314923520797
+    }
+  },
+  {
+    "frame_id": 29,
+    "timestamp": 1317022475.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000029.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000029.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01114242192061,
+      "longitude": 8.422940084180006,
+      "heading_deg": 309.66745334973064
+    }
+  },
+  {
+    "frame_id": 30,
+    "timestamp": 1317022475.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000030.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000030.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011140162984205,
+      "longitude": 8.422942758329038,
+      "heading_deg": 310.3526429304022
+    }
+  },
+  {
+    "frame_id": 31,
+    "timestamp": 1317022475.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000031.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000031.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011137936045905,
+      "longitude": 8.422945510724013,
+      "heading_deg": 311.029180138094
+    }
+  },
+  {
+    "frame_id": 32,
+    "timestamp": 1317022475.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000032.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000032.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0111357855542,
+      "longitude": 8.422948417489856,
+      "heading_deg": 311.71155684511024
+    }
+  },
+  {
+    "frame_id": 33,
+    "timestamp": 1317022475.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000033.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000033.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01113360716944,
+      "longitude": 8.422951389254516,
+      "heading_deg": 312.42686634648373
+    }
+  },
+  {
+    "frame_id": 34,
+    "timestamp": 1317022475.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000034.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000034.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011131269191615,
+      "longitude": 8.422954402343185,
+      "heading_deg": 313.16829358874344
+    }
+  },
+  {
+    "frame_id": 35,
+    "timestamp": 1317022475.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000035.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000035.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011128917496265,
+      "longitude": 8.422957526819582,
+      "heading_deg": 313.8811494050523
+    }
+  },
+  {
+    "frame_id": 36,
+    "timestamp": 1317022475.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000036.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000036.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01112657462221,
+      "longitude": 8.422960835795896,
+      "heading_deg": 314.6059352462103
+    }
+  },
+  {
+    "frame_id": 37,
+    "timestamp": 1317022476.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000037.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000037.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01112421951855,
+      "longitude": 8.42296426730614,
+      "heading_deg": 315.40472383303626
+    }
+  },
+  {
+    "frame_id": 38,
+    "timestamp": 1317022476.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000038.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000038.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011121796770134,
+      "longitude": 8.422967813155624,
+      "heading_deg": 316.20640125946295
+    }
+  },
+  {
+    "frame_id": 39,
+    "timestamp": 1317022476.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000039.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000039.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01111931381094,
+      "longitude": 8.42297150769123,
+      "heading_deg": 317.0242766698729
+    }
+  },
+  {
+    "frame_id": 40,
+    "timestamp": 1317022476.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000040.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000040.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01111682470003,
+      "longitude": 8.422975337755778,
+      "heading_deg": 317.8573053983563
+    }
+  },
+  {
+    "frame_id": 41,
+    "timestamp": 1317022476.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000041.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000041.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01111430510343,
+      "longitude": 8.422979302506299,
+      "heading_deg": 318.7469344709188
+    }
+  },
+  {
+    "frame_id": 42,
+    "timestamp": 1317022476.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000042.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000042.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01111175827144,
+      "longitude": 8.422983383262187,
+      "heading_deg": 319.7006145981052
+    }
+  },
+  {
+    "frame_id": 43,
+    "timestamp": 1317022476.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000043.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000043.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01110927442507,
+      "longitude": 8.422987606379472,
+      "heading_deg": 320.66274934072203
+    }
+  },
+  {
+    "frame_id": 44,
+    "timestamp": 1317022476.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000044.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000044.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01110694718004,
+      "longitude": 8.422992011112532,
+      "heading_deg": 321.63991135359333
+    }
+  },
+  {
+    "frame_id": 45,
+    "timestamp": 1317022476.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000045.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000045.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01110470766508,
+      "longitude": 8.422996558725321,
+      "heading_deg": 322.66924774027365
+    }
+  },
+  {
+    "frame_id": 46,
+    "timestamp": 1317022476.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000046.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000046.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01110242545455,
+      "longitude": 8.423001241771516,
+      "heading_deg": 323.73261525996077
+    }
+  },
+  {
+    "frame_id": 47,
+    "timestamp": 1317022477.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000047.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000047.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01110009847448,
+      "longitude": 8.423006048539557,
+      "heading_deg": 324.81184559897565
+    }
+  },
+  {
+    "frame_id": 48,
+    "timestamp": 1317022477.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000048.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000048.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01109789041227,
+      "longitude": 8.423010857745266,
+      "heading_deg": 325.89811939107415
+    }
+  },
+  {
+    "frame_id": 49,
+    "timestamp": 1317022477.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000049.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000049.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01109588739276,
+      "longitude": 8.423015667454111,
+      "heading_deg": 326.9723533536199
+    }
+  },
+  {
+    "frame_id": 50,
+    "timestamp": 1317022477.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000050.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000050.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01109407569062,
+      "longitude": 8.423020542768281,
+      "heading_deg": 328.0187300279457
+    }
+  },
+  {
+    "frame_id": 51,
+    "timestamp": 1317022477.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000051.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000051.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01109229008824,
+      "longitude": 8.423025472171098,
+      "heading_deg": 329.04783895814614
+    }
+  },
+  {
+    "frame_id": 52,
+    "timestamp": 1317022477.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000052.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000052.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01109046571384,
+      "longitude": 8.4230304539992,
+      "heading_deg": 330.058164487606
+    }
+  },
+  {
+    "frame_id": 53,
+    "timestamp": 1317022477.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000053.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000053.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01108880344442,
+      "longitude": 8.423035450798618,
+      "heading_deg": 331.01829913863014
+    }
+  },
+  {
+    "frame_id": 54,
+    "timestamp": 1317022477.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000054.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000054.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01108734590587,
+      "longitude": 8.423040449856591,
+      "heading_deg": 331.9432362470653
+    }
+  },
+  {
+    "frame_id": 55,
+    "timestamp": 1317022477.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000055.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000055.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011085978644566,
+      "longitude": 8.423045461389297,
+      "heading_deg": 332.85938320142037
+    }
+  },
+  {
+    "frame_id": 56,
+    "timestamp": 1317022477.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000056.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000056.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01108458808957,
+      "longitude": 8.423050513485757,
+      "heading_deg": 333.73731888411237
+    }
+  },
+  {
+    "frame_id": 57,
+    "timestamp": 1317022478.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000057.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000057.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011083235254496,
+      "longitude": 8.423055597507975,
+      "heading_deg": 334.584866677799
+    }
+  },
+  {
+    "frame_id": 58,
+    "timestamp": 1317022478.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000058.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000058.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01108196550253,
+      "longitude": 8.423060670785071,
+      "heading_deg": 335.3815937987796
+    }
+  },
+  {
+    "frame_id": 59,
+    "timestamp": 1317022478.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000059.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000059.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011080886275295,
+      "longitude": 8.423065691253573,
+      "heading_deg": 336.0445769138547
+    }
+  },
+  {
+    "frame_id": 60,
+    "timestamp": 1317022478.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000060.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000060.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107990729406,
+      "longitude": 8.423070701205496,
+      "heading_deg": 336.6344688862383
+    }
+  },
+  {
+    "frame_id": 61,
+    "timestamp": 1317022478.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000061.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000061.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107877669311,
+      "longitude": 8.42307570542749,
+      "heading_deg": 337.1514110898943
+    }
+  },
+  {
+    "frame_id": 62,
+    "timestamp": 1317022478.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000062.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000062.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011077693600605,
+      "longitude": 8.423080681931246,
+      "heading_deg": 337.59240081429925
+    }
+  },
+  {
+    "frame_id": 63,
+    "timestamp": 1317022478.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000063.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000063.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011076529761425,
+      "longitude": 8.423085668460416,
+      "heading_deg": 337.9374275485923
+    }
+  },
+  {
+    "frame_id": 64,
+    "timestamp": 1317022478.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000064.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000064.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107556070334,
+      "longitude": 8.42309060508933,
+      "heading_deg": 338.18999451616514
+    }
+  },
+  {
+    "frame_id": 65,
+    "timestamp": 1317022478.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000065.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000065.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107462596175,
+      "longitude": 8.423095506055617,
+      "heading_deg": 338.34399441511033
+    }
+  },
+  {
+    "frame_id": 66,
+    "timestamp": 1317022478.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000066.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000066.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107358019273,
+      "longitude": 8.42310039937523,
+      "heading_deg": 338.4026063903835
+    }
+  },
+  {
+    "frame_id": 67,
+    "timestamp": 1317022479.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000067.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000067.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107257612776,
+      "longitude": 8.423105257244055,
+      "heading_deg": 338.36627092635007
+    }
+  },
+  {
+    "frame_id": 68,
+    "timestamp": 1317022479.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000068.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000068.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01107144578191,
+      "longitude": 8.423110106434288,
+      "heading_deg": 338.2301233756762
+    }
+  },
+  {
+    "frame_id": 69,
+    "timestamp": 1317022479.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000069.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000069.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011070763179944,
+      "longitude": 8.42311496019589,
+      "heading_deg": 337.97818466851214
+    }
+  },
+  {
+    "frame_id": 70,
+    "timestamp": 1317022479.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000070.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000070.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011069942427845,
+      "longitude": 8.42311992447941,
+      "heading_deg": 337.60428681508085
+    }
+  },
+  {
+    "frame_id": 71,
+    "timestamp": 1317022479.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000071.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000071.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106903102022,
+      "longitude": 8.42312495672798,
+      "heading_deg": 337.13017465164893
+    }
+  },
+  {
+    "frame_id": 72,
+    "timestamp": 1317022479.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000072.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000072.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106797430912,
+      "longitude": 8.423130015022728,
+      "heading_deg": 336.5879277852586
+    }
+  },
+  {
+    "frame_id": 73,
+    "timestamp": 1317022479.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000073.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000073.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0110669158314,
+      "longitude": 8.423135071191192,
+      "heading_deg": 335.9452517645992
+    }
+  },
+  {
+    "frame_id": 74,
+    "timestamp": 1317022479.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000074.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000074.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106590661568,
+      "longitude": 8.423140089653245,
+      "heading_deg": 335.19283521084907
+    }
+  },
+  {
+    "frame_id": 75,
+    "timestamp": 1317022479.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000075.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000075.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0110648390865,
+      "longitude": 8.423145051836741,
+      "heading_deg": 334.344919757534
+    }
+  },
+  {
+    "frame_id": 76,
+    "timestamp": 1317022479.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000076.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000076.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106369515697,
+      "longitude": 8.423149954986885,
+      "heading_deg": 333.4311994204979
+    }
+  },
+  {
+    "frame_id": 77,
+    "timestamp": 1317022480.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000077.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000077.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106244203065,
+      "longitude": 8.42315481116782,
+      "heading_deg": 332.4376156090189
+    }
+  },
+  {
+    "frame_id": 78,
+    "timestamp": 1317022480.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000078.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000078.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01106117163647,
+      "longitude": 8.423159609186913,
+      "heading_deg": 331.3357775463182
+    }
+  },
+  {
+    "frame_id": 79,
+    "timestamp": 1317022480.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000079.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000079.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01105989088605,
+      "longitude": 8.423164329138164,
+      "heading_deg": 330.15843500512676
+    }
+  },
+  {
+    "frame_id": 80,
+    "timestamp": 1317022480.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000080.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000080.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011058529167286,
+      "longitude": 8.423168967747465,
+      "heading_deg": 328.95624903666703
+    }
+  },
+  {
+    "frame_id": 81,
+    "timestamp": 1317022480.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000081.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000081.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011057078198526,
+      "longitude": 8.423173506708032,
+      "heading_deg": 327.74223964148956
+    }
+  },
+  {
+    "frame_id": 82,
+    "timestamp": 1317022480.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000082.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000082.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011055454817125,
+      "longitude": 8.423177960081926,
+      "heading_deg": 326.4925654785657
+    }
+  },
+  {
+    "frame_id": 83,
+    "timestamp": 1317022480.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000083.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000083.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01105379575323,
+      "longitude": 8.423182364386179,
+      "heading_deg": 325.19123196323164
+    }
+  },
+  {
+    "frame_id": 84,
+    "timestamp": 1317022480.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000084.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000084.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01105209414471,
+      "longitude": 8.423186730112805,
+      "heading_deg": 323.83871729865035
+    }
+  },
+  {
+    "frame_id": 85,
+    "timestamp": 1317022480.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000085.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000085.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0110503009227,
+      "longitude": 8.423191066677754,
+      "heading_deg": 322.4599628563003
+    }
+  },
+  {
+    "frame_id": 86,
+    "timestamp": 1317022480.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000086.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000086.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01104839181847,
+      "longitude": 8.423195363211349,
+      "heading_deg": 321.0448673789576
+    }
+  },
+  {
+    "frame_id": 87,
+    "timestamp": 1317022481.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000087.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000087.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01104630220309,
+      "longitude": 8.423199614681312,
+      "heading_deg": 319.61545860107947
+    }
+  },
+  {
+    "frame_id": 88,
+    "timestamp": 1317022481.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000088.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000088.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01104414996777,
+      "longitude": 8.423203829042842,
+      "heading_deg": 318.1757754198516
+    }
+  },
+  {
+    "frame_id": 89,
+    "timestamp": 1317022481.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000089.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000089.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01104192326989,
+      "longitude": 8.423208005773525,
+      "heading_deg": 316.7343201118633
+    }
+  },
+  {
+    "frame_id": 90,
+    "timestamp": 1317022481.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000090.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000090.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01103970808284,
+      "longitude": 8.423212120086689,
+      "heading_deg": 315.2972644963206
+    }
+  },
+  {
+    "frame_id": 91,
+    "timestamp": 1317022481.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000091.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000091.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0110372397787,
+      "longitude": 8.423216134843482,
+      "heading_deg": 313.86984287924554
+    }
+  },
+  {
+    "frame_id": 92,
+    "timestamp": 1317022481.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000092.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000092.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01103464967294,
+      "longitude": 8.42322004381829,
+      "heading_deg": 312.47412371177296
+    }
+  },
+  {
+    "frame_id": 93,
+    "timestamp": 1317022481.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000093.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000093.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01103188866075,
+      "longitude": 8.423223879102952,
+      "heading_deg": 311.0988751607232
+    }
+  },
+  {
+    "frame_id": 94,
+    "timestamp": 1317022481.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000094.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000094.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01102902468845,
+      "longitude": 8.423227688721422,
+      "heading_deg": 309.6977263366788
+    }
+  },
+  {
+    "frame_id": 95,
+    "timestamp": 1317022481.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000095.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000095.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01102605573899,
+      "longitude": 8.423231438489445,
+      "heading_deg": 308.31417241884077
+    }
+  },
+  {
+    "frame_id": 96,
+    "timestamp": 1317022481.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000096.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000096.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01102295720698,
+      "longitude": 8.423235127074475,
+      "heading_deg": 306.9667492142771
+    }
+  },
+  {
+    "frame_id": 97,
+    "timestamp": 1317022482.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000097.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000097.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01101976163613,
+      "longitude": 8.423238745944063,
+      "heading_deg": 305.6131802652695
+    }
+  },
+  {
+    "frame_id": 98,
+    "timestamp": 1317022482.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000098.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000098.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01101647078508,
+      "longitude": 8.423242306082933,
+      "heading_deg": 304.2458441450234
+    }
+  },
+  {
+    "frame_id": 99,
+    "timestamp": 1317022482.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000099.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000099.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01101308266915,
+      "longitude": 8.423245750364302,
+      "heading_deg": 302.8419693409631
+    }
+  },
+  {
+    "frame_id": 100,
+    "timestamp": 1317022482.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000100.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000100.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01100967201053,
+      "longitude": 8.42324916622938,
+      "heading_deg": 301.4290347099703
+    }
+  },
+  {
+    "frame_id": 101,
+    "timestamp": 1317022482.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000101.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000101.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01100611629251,
+      "longitude": 8.423252461609371,
+      "heading_deg": 300.006571112151
+    }
+  },
+  {
+    "frame_id": 102,
+    "timestamp": 1317022482.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000102.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000102.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.011002438365196,
+      "longitude": 8.42325565486061,
+      "heading_deg": 298.5782134680763
+    }
+  },
+  {
+    "frame_id": 103,
+    "timestamp": 1317022482.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000103.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000103.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010998670441055,
+      "longitude": 8.423258806996662,
+      "heading_deg": 297.1300914295985
+    }
+  },
+  {
+    "frame_id": 104,
+    "timestamp": 1317022482.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000104.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000104.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010994759691904,
+      "longitude": 8.42326187660133,
+      "heading_deg": 295.69471079943025
+    }
+  },
+  {
+    "frame_id": 105,
+    "timestamp": 1317022482.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000105.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000105.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01099072585954,
+      "longitude": 8.423264846798611,
+      "heading_deg": 294.3104834827176
+    }
+  },
+  {
+    "frame_id": 106,
+    "timestamp": 1317022482.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000106.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000106.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01098658280019,
+      "longitude": 8.423267702942969,
+      "heading_deg": 292.96148139357894
+    }
+  },
+  {
+    "frame_id": 107,
+    "timestamp": 1317022483.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000107.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000107.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01098232460693,
+      "longitude": 8.42327042501827,
+      "heading_deg": 291.6205769676004
+    }
+  },
+  {
+    "frame_id": 108,
+    "timestamp": 1317022483.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000108.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000108.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01097796507933,
+      "longitude": 8.423273035990523,
+      "heading_deg": 290.2669425735643
+    }
+  },
+  {
+    "frame_id": 109,
+    "timestamp": 1317022483.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000109.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000109.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010973479226905,
+      "longitude": 8.423275537647877,
+      "heading_deg": 288.8966285197869
+    }
+  },
+  {
+    "frame_id": 110,
+    "timestamp": 1317022483.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000110.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000110.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0109688666772,
+      "longitude": 8.423277915311736,
+      "heading_deg": 287.5536338914037
+    }
+  },
+  {
+    "frame_id": 111,
+    "timestamp": 1317022483.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000111.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000111.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01096415902572,
+      "longitude": 8.423280162289087,
+      "heading_deg": 286.26282383124254
+    }
+  },
+  {
+    "frame_id": 112,
+    "timestamp": 1317022483.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000112.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000112.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010959347371966,
+      "longitude": 8.423282262151796,
+      "heading_deg": 285.01488130389555
+    }
+  },
+  {
+    "frame_id": 113,
+    "timestamp": 1317022483.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000113.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000113.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0109544887421,
+      "longitude": 8.423284235503486,
+      "heading_deg": 283.77531526630725
+    }
+  },
+  {
+    "frame_id": 114,
+    "timestamp": 1317022483.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000114.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000114.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01094962545742,
+      "longitude": 8.4232860593474,
+      "heading_deg": 282.53648824860704
+    }
+  },
+  {
+    "frame_id": 115,
+    "timestamp": 1317022483.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000115.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000115.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01094473013353,
+      "longitude": 8.423287727199085,
+      "heading_deg": 281.31509451524664
+    }
+  },
+  {
+    "frame_id": 116,
+    "timestamp": 1317022483.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000116.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000116.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01093980115996,
+      "longitude": 8.423289227137058,
+      "heading_deg": 280.1280308274063
+    }
+  },
+  {
+    "frame_id": 117,
+    "timestamp": 1317022484.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000117.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000117.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01093482290642,
+      "longitude": 8.423290562476236,
+      "heading_deg": 278.9892691883539
+    }
+  },
+  {
+    "frame_id": 118,
+    "timestamp": 1317022484.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000118.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000118.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010929857901154,
+      "longitude": 8.423291742915591,
+      "heading_deg": 277.9236150927969
+    }
+  },
+  {
+    "frame_id": 119,
+    "timestamp": 1317022484.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000119.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000119.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010924943252135,
+      "longitude": 8.423292786131153,
+      "heading_deg": 276.90346275990703
+    }
+  },
+  {
+    "frame_id": 120,
+    "timestamp": 1317022484.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000120.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000120.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010920052788656,
+      "longitude": 8.423293702436455,
+      "heading_deg": 275.8766141700557
+    }
+  },
+  {
+    "frame_id": 121,
+    "timestamp": 1317022484.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000121.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000121.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01091516783162,
+      "longitude": 8.423294487660499,
+      "heading_deg": 274.8360700831296
+    }
+  },
+  {
+    "frame_id": 122,
+    "timestamp": 1317022484.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000122.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000122.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01091021720193,
+      "longitude": 8.42329510944209,
+      "heading_deg": 273.8155520552107
+    }
+  },
+  {
+    "frame_id": 123,
+    "timestamp": 1317022484.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000123.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000123.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010905278991466,
+      "longitude": 8.423295589616867,
+      "heading_deg": 272.79382064409054
+    }
+  },
+  {
+    "frame_id": 124,
+    "timestamp": 1317022484.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000124.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000124.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0109003417086,
+      "longitude": 8.423295983065362,
+      "heading_deg": 271.7623180616292
+    }
+  },
+  {
+    "frame_id": 125,
+    "timestamp": 1317022484.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000125.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000125.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01089548560566,
+      "longitude": 8.423296296791547,
+      "heading_deg": 270.73248723319523
+    }
+  },
+  {
+    "frame_id": 126,
+    "timestamp": 1317022484.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000126.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000126.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01089053287671,
+      "longitude": 8.42329642624407,
+      "heading_deg": 269.7050762232828
+    }
+  },
+  {
+    "frame_id": 127,
+    "timestamp": 1317022485.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000127.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000127.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01088557721752,
+      "longitude": 8.423296396511079,
+      "heading_deg": 268.68215114279354
+    }
+  },
+  {
+    "frame_id": 128,
+    "timestamp": 1317022485.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000128.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000128.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01088059501716,
+      "longitude": 8.423296177621452,
+      "heading_deg": 267.6603529658508
+    }
+  },
+  {
+    "frame_id": 129,
+    "timestamp": 1317022485.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000129.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000129.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0108756426496,
+      "longitude": 8.423295824298407,
+      "heading_deg": 266.6509075856644
+    }
+  },
+  {
+    "frame_id": 130,
+    "timestamp": 1317022485.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000130.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000130.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010870672344524,
+      "longitude": 8.42329532314828,
+      "heading_deg": 265.6977144936893
+    }
+  },
+  {
+    "frame_id": 131,
+    "timestamp": 1317022485.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000131.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000131.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01086567033337,
+      "longitude": 8.42329467801625,
+      "heading_deg": 264.81749635832165
+    }
+  },
+  {
+    "frame_id": 132,
+    "timestamp": 1317022485.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000132.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000132.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010860658319054,
+      "longitude": 8.42329389196072,
+      "heading_deg": 264.1406019929749
+    }
+  },
+  {
+    "frame_id": 133,
+    "timestamp": 1317022485.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000133.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000133.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01085560688721,
+      "longitude": 8.423292976493629,
+      "heading_deg": 263.66936824331844
+    }
+  },
+  {
+    "frame_id": 134,
+    "timestamp": 1317022485.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000134.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000134.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010850622940914,
+      "longitude": 8.423292087971408,
+      "heading_deg": 263.3295294839581
+    }
+  },
+  {
+    "frame_id": 135,
+    "timestamp": 1317022485.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000135.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000135.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010845619779005,
+      "longitude": 8.423291152600752,
+      "heading_deg": 263.12886028672483
+    }
+  },
+  {
+    "frame_id": 136,
+    "timestamp": 1317022485.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000136.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000136.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010840557090845,
+      "longitude": 8.423290163716613,
+      "heading_deg": 263.0919062485391
+    }
+  },
+  {
+    "frame_id": 137,
+    "timestamp": 1317022486.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000137.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000137.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01083545651134,
+      "longitude": 8.423289179815542,
+      "heading_deg": 263.20131884516974
+    }
+  },
+  {
+    "frame_id": 138,
+    "timestamp": 1317022486.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000138.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000138.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01083031361875,
+      "longitude": 8.423288212385302,
+      "heading_deg": 263.45916007560186
+    }
+  },
+  {
+    "frame_id": 139,
+    "timestamp": 1317022486.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000139.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000139.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01082522032996,
+      "longitude": 8.42328728473479,
+      "heading_deg": 263.8735903905933
+    }
+  },
+  {
+    "frame_id": 140,
+    "timestamp": 1317022486.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000140.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000140.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010820096935326,
+      "longitude": 8.423286392295173,
+      "heading_deg": 264.4140898427213
+    }
+  },
+  {
+    "frame_id": 141,
+    "timestamp": 1317022486.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000141.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000141.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010814916691245,
+      "longitude": 8.423285541343299,
+      "heading_deg": 265.0661156852905
+    }
+  },
+  {
+    "frame_id": 142,
+    "timestamp": 1317022486.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000142.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000142.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010809684012486,
+      "longitude": 8.423284793203488,
+      "heading_deg": 265.82810532265444
+    }
+  },
+  {
+    "frame_id": 143,
+    "timestamp": 1317022486.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000143.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000143.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01080441531751,
+      "longitude": 8.423284224042055,
+      "heading_deg": 266.6249492570473
+    }
+  },
+  {
+    "frame_id": 144,
+    "timestamp": 1317022486.74965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000144.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000144.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01079914379839,
+      "longitude": 8.423283801026118,
+      "heading_deg": 267.4326423132013
+    }
+  },
+  {
+    "frame_id": 145,
+    "timestamp": 1317022486.84965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000145.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000145.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.0107938193228,
+      "longitude": 8.423283458962954,
+      "heading_deg": 268.279400625798
+    }
+  },
+  {
+    "frame_id": 146,
+    "timestamp": 1317022486.9496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000146.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000146.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01078843988886,
+      "longitude": 8.423283264290543,
+      "heading_deg": 269.1147898927295
+    }
+  },
+  {
+    "frame_id": 147,
+    "timestamp": 1317022487.04965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000147.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000147.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010783015373796,
+      "longitude": 8.423283264812431,
+      "heading_deg": 269.9142849708228
+    }
+  },
+  {
+    "frame_id": 148,
+    "timestamp": 1317022487.1496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000148.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000148.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010777552301676,
+      "longitude": 8.423283381942309,
+      "heading_deg": 270.71410658044636
+    }
+  },
+  {
+    "frame_id": 149,
+    "timestamp": 1317022487.24965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000149.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000149.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01077207514335,
+      "longitude": 8.423283616223257,
+      "heading_deg": 271.51822559114214
+    }
+  },
+  {
+    "frame_id": 150,
+    "timestamp": 1317022487.34965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000150.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000150.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010766514512916,
+      "longitude": 8.423283942171036,
+      "heading_deg": 272.2756002507223
+    }
+  },
+  {
+    "frame_id": 151,
+    "timestamp": 1317022487.4496498,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000151.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000151.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01076091749513,
+      "longitude": 8.423284372810627,
+      "heading_deg": 273.0085641669879
+    }
+  },
+  {
+    "frame_id": 152,
+    "timestamp": 1317022487.54965,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000152.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000152.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.010755268710305,
+      "longitude": 8.423284903734132,
+      "heading_deg": 273.7343245044071
+    }
+  },
+  {
+    "frame_id": 153,
+    "timestamp": 1317022487.6496499,
+    "camera_data": {
+      "lens": "lens1",
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\image_02\\data\\0000000153.png"
+    },
+    "lidar_data": {
+      "path": "data\\raw\\kitti\\2011_09_26\\2011_09_26_drive_0005_sync\\velodyne_points\\data\\0000000153.bin"
+    },
+    "ego_pose": {
+      "latitude": 49.01074959815608,
+      "longitude": 8.423285554391738,
+      "heading_deg": 274.3988280595126
+    }
+  }
+]
