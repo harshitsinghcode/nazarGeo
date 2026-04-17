@@ -1,32 +1,91 @@
+# presniff.py - fixed: in-process, LiDAR cached, all 4 steps
+
 import os
-import subprocess
 import argparse
 import cfg
-
-def run_command(cmd):
-    print(f"\n[CMD] {cmd}")
-    result = subprocess.run(cmd, shell=True, capture_output=False)
-    if result.returncode != 0:
-        print(f"[ERROR] Command failed with code {result.returncode}")
-    return result.returncode
+import lidar_pcap
+import sync
+import perceive
+import project
+import match
 
 def process_frames(start, end, step):
     os.makedirs(cfg.OUT_DIR, exist_ok=True)
-    for fid in range(start, end + 1, step):
-        print(f"\n{'='*50}")
-        print(f"Processing frame {fid:06d} (step {step})")
-        print('='*50)
+    os.makedirs(os.path.join(cfg.OUT_DIR, "perceive_json"), exist_ok=True)
+    os.makedirs(os.path.join(cfg.OUT_DIR, "perceive_vis"), exist_ok=True)
+    os.makedirs(os.path.join(cfg.OUT_DIR, "project_json"), exist_ok=True)
+    os.makedirs(os.path.join(cfg.OUT_DIR, "match_json"),   exist_ok=True)
+    os.makedirs(os.path.join(cfg.OUT_DIR, "raw"),          exist_ok=True)
 
-        # 1. Perceive
-        ret = run_command(f"python perceive.py --frame {fid}")
-        if ret != 0:
-            print(f"[SKIP] Frame {fid} perception failed, skipping match.")
+    # Step 0: build manifest once
+    print("=== Building manifest ===")
+    sync.build_manifest()
+
+    # Step 1: pre-load LiDAR ONCE — cached in lidar_pcap._cache
+    print("=== Pre-loading LiDAR (one-time, ~45M pts) ===")
+    lidar_pcap.load_both(cfg.L1_PCAP_PATH, cfg.L2_PCAP_PATH)
+    print("=== LiDAR cached. Starting frame loop ===\n")
+
+    total   = len(range(start, end + 1, step))
+    success = 0
+    skipped = 0
+
+    for i, fid in enumerate(range(start, end + 1, step)):
+        print(f"\n{'='*52}")
+        print(f"  Frame {fid:06d}  ({i+1}/{total})")
+        print(f"{'='*52}")
+
+        # ── perceive ──────────────────────────────────────────
+        try:
+            perc = perceive.run_frame(fid)
+        except FileNotFoundError as e:
+            print(f"  [SKIP] image missing: {e}")
+            skipped += 1
+            continue
+        except Exception as e:
+            print(f"  [SKIP] perceive error: {e}")
+            skipped += 1
             continue
 
-        # 2. Match
-        ret = run_command(f"python match.py --frame {fid}")
-        if ret != 0:
-            print(f"[WARN] Frame {fid} match failed, but continuing.")
+        if perc is None:
+            print(f"  [SKIP] no building detected")
+            skipped += 1
+            continue
+
+        # ── project ───────────────────────────────────────────
+        try:
+            proj = project.run_frame(fid)
+        except Exception as e:
+            print(f"  [SKIP] project error: {e}")
+            skipped += 1
+            continue
+
+        if proj is None:
+            print(f"  [SKIP] project returned None")
+            skipped += 1
+            continue
+
+        # ── match ─────────────────────────────────────────────
+        try:
+            result = match.run_frame(fid)
+        except Exception as e:
+            print(f"  [WARN] match error: {e}")
+            continue   # don't skip — perceive+project still saved
+
+        if result is None:
+            print(f"  [WARN] no GOB match found")
+            continue
+
+        success += 1
+        best = result["best_match"]
+        print(f"  ✓ score={best['score']:.1f}  "
+              f"GPS=({best['centroid_lat']:.6f}, {best['centroid_lon']:.6f})")
+
+    print(f"\n{'='*52}")
+    print(f"DONE  {success} matched / {skipped} skipped / {total} total")
+    print(f"Run:  python sniff.py --start {start} --end {end}")
+    print(f"{'='*52}")
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
