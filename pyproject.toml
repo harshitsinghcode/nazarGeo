@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "geobuild"
+version = "0.1.0"
+description = "Associate street-view building images to geo-coordinates using sensor fusion (GPS/IMU + LiDAR + Camera + GOB/OSM)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+keywords = ["geospatial", "sensor-fusion", "lidar", "building-detection", "gps", "kalman-filter"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+    "pandas>=1.5",
+    "geopy>=2.3",
+]
+
+[project.optional-dependencies]
+full = [
+    "ultralytics>=8.0",
+    "opencv-python>=4.8",
+    "dpkt>=1.9",
+    "osmnx>=1.6",
+    "streamlit>=1.30",
+]
+dev = ["pytest", "black", "ruff"]
+
+[project.scripts]
+geobuild-app = "geobuild.app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["geobuild*"]

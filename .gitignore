@@ -1,3 +1,5 @@
 yolov8s-world.pt
 mobile_sam.pt
 /data
+/out
+output.txt

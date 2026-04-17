@@ -1,0 +1,75 @@
+I20260119 08:10:11.073282 23387 main.cpp:78] Begin program
+=== Program Configuration ===
+Camera intrinsic file: /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/data/camera_pinhole.yaml
+Data directory: /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/data
+Output directory: /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/output
+=============================
+Camera Model: pinhole_from_omni
+Image Width: 3840
+Image Height: 2160
+Focal Length X: 1106.46
+Focal Length Y: 1077.77
+Principal Point X: 1080
+Principal Point Y: 1920
+Distortion Coefficient k1: 0
+Distortion Coefficient k2: 0
+Distortion Coefficient p1: 0
+Distortion Coefficient p2: 0
+I20260119 08:10:11.074239 23387 main.cpp:139] Final Parameters:
+I20260119 08:10:11.074250 23387 main.cpp:140]  marker_size = 0.2
+I20260119 08:10:11.074254 23387 main.cpp:141]  delta_width_qr_center = 0.55
+I20260119 08:10:11.074258 23387 main.cpp:142]  delta_height_qr_center = 0.55
+I20260119 08:10:11.074261 23387 main.cpp:143]  delta_width_circles = 0.5
+I20260119 08:10:11.074265 23387 main.cpp:144]  delta_height_circles = 0.4
+I20260119 08:10:11.074268 23387 main.cpp:145]  min_detected_markers = 3
+I20260119 08:10:11.074271 23387 main.cpp:146]  circle_radius = 0.12
+I20260119 08:10:11.074275 23387 main.cpp:147]  voxel_downsample_size = 0.005
+I20260119 08:10:11.074277 23387 main.cpp:148]  plane_dist_threshold = 0.05
+I20260119 08:10:11.074281 23387 main.cpp:149]  circle_tolerance = 0.009
+I20260119 08:10:11.074285 23387 main.cpp:150]  crop_min_xyz = [2, -0.8, -2]
+I20260119 08:10:11.074288 23387 main.cpp:154]  crop_max_xyz = [3.5, 2.2, 5]
+Warning: No matching BAG file found for /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/data/cam_s1768477219735.png
+Found 1 .bag and .png file pairs in /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/data
+Loaded image: /home/geetika/FAST-Calib_wo_ros_mech_solid-main_v1/data/cam_s1768477219735.png with size 2160x3840 and point cloud with 511214 points.
+I20260119 08:10:11.557543 23387 lidar_detect.hpp:80] LidarDetect initialized, x_min: 2, x_max: 3.5, y_min: -0.8, y_max: 2.2, z_min: -2, z_max: 5, circle_radius: 0.12, voxel_down_size: 0.005
+I20260119 08:10:11.557574 23387 lidar_detect.hpp:87] Plane fitting params, plane_dist_threshold: 0.05
+I20260119 08:10:11.557577 23387 lidar_detect.hpp:93] Target params, target_normal_radius: 0.1, target_boundary_radius: 0.1, target_boundary_angle_thres: 1.5708
+I20260119 08:10:11.557610 23387 qr_detect.hpp:55] QR detect initialized with parameters: 
+marker_size: 0.2
+delta_width_qr_center: 0.55
+delta_height_qr_center: 0.55
+delta_width_circles: 0.5
+delta_height_circles: 0.4
+min_detected_markers: 3
+I20260119 08:10:11.557632 23387 main.cpp:178] Processing data pair 1 / 1
+I20260119 08:10:11.561873 23387 lidar_detect.hpp:321] [mech] Depth filtered cloud size: 26047
+I20260119 08:10:11.566109 23387 lidar_detect.hpp:342] [mech] Plane cloud size: 18368
+I20260119 08:10:11.566674 23387 lidar_detect.hpp:408] [mech] Extracted 450 edge points (neighbor distance).
+I20260119 08:10:11.566730 23387 lidar_detect.hpp:442] [mech] Start circle detection, initial cloud size = 450
+I20260119 08:10:11.566740 23387 lidar_detect.hpp:462] [mech] RANSAC on cloud of size 450
+I20260119 08:10:11.566962 23387 lidar_detect.hpp:466] [mech] circle r = 0.123959, inliers = 61
+I20260119 08:10:11.567041 23387 lidar_detect.hpp:462] [mech] RANSAC on cloud of size 389
+I20260119 08:10:11.567281 23387 lidar_detect.hpp:466] [mech] circle r = 0.123577, inliers = 54
+I20260119 08:10:11.567313 23387 lidar_detect.hpp:462] [mech] RANSAC on cloud of size 335
+I20260119 08:10:11.567442 23387 lidar_detect.hpp:466] [mech] circle r = 0.12819, inliers = 55
+I20260119 08:10:11.567471 23387 lidar_detect.hpp:462] [mech] RANSAC on cloud of size 280
+I20260119 08:10:11.567623 23387 lidar_detect.hpp:466] [mech] circle r = 0.12297, inliers = 42
+I20260119 08:10:11.567652 23387 lidar_detect.hpp:462] [mech] RANSAC on cloud of size 238
+I20260119 08:10:11.567909 23387 lidar_detect.hpp:466] [mech] circle r = 0.132128, inliers = 0
+I20260119 08:10:11.567934 23387 lidar_detect.hpp:471] [mech] No more circles can be found, stop.
+I20260119 08:10:11.567946 23387 lidar_detect.hpp:503] [mech] Detected 4 raw circle candidates before geometry filter.
+I20260119 08:10:11.568842 23387 main.cpp:191] center_cloud_:
+I20260119 08:10:11.569077 23387 main.cpp:193] center_cloud_:
+I20260119 08:10:11.584758 23387 main.cpp:195] center_cloud_:
+I20260119 08:10:11.585112 23387 main.cpp:197] center_cloud_:
+I20260119 08:10:11.585121 23387 main.cpp:206] Lidar Detection completed 
+I20260119 08:10:11.694422 23387 qr_detect.hpp:207] detect_qr: 1.16959, 0.799599, 2.69394
+I20260119 08:10:11.694531 23387 struct.hpp:103] 4 centers found. Iterating over 1 possible sets of candidates
+I20260119 08:10:11.955089 23387 main.cpp:213] QR Detection completed 
+I20260119 08:10:11.956526 23387 main.cpp:237] Calibration result RMSE: 0.00680716
+[pcl::VoxelGrid::applyFilter] Leaf size is too small for the input dataset. Integer indices would overflow.
+I20260119 08:10:12.341557 23387 main.cpp:247] Processed data pair 1 / 1 successfully
+   0.20927  -0.977663 -0.0195126    2.05416
+ 0.0386136  0.0282009  -0.998856   0.401883
+  0.977095   0.208277  0.0436527  -0.035744
+         0          0          0          1Processing completed!
