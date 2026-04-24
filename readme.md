@@ -649,7 +649,7 @@ Results reported on 8 curated reference frames from a road survey in Chennai, In
 
 | Term | Definition |
 |---|---|
-| **GOB** | Ground-truth Object Base — surveyed building database with WKT polygon footprints |
+| **GOB** | Google Open Buildings — surveyed building DB with WKT polygon footprints |
 | **Polygon-edge error** | Distance from estimated GPS to nearest polygon boundary (0 if inside) |
 | **Inlier** | A frame whose calibrated error is within `OUTLIER_SCALE × median` |
 | **Ego-pose** | Vehicle position and orientation at a given frame timestamp |
