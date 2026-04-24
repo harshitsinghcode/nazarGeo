@@ -13,16 +13,25 @@ def _haversine_m(lat1, lon1, lat2, lon2):
     return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
+_GOB_DF: dict[str, pd.DataFrame] = {}
+
+
 def load_gob(csv_path, ego_lat, ego_lon, radius_m, conf_min=0.0):
-    df = pd.read_csv(csv_path)
+    if csv_path not in _GOB_DF:
+        df = pd.read_csv(csv_path)
+        df.columns = df.columns.str.strip()
+        _GOB_DF[csv_path] = df
+
+    df = _GOB_DF[csv_path]
 
     possible_lat  = [c for c in df.columns if "lat"  in c.lower()]
     possible_lon  = [c for c in df.columns if "lon"  in c.lower()]
     possible_conf = [c for c in df.columns if "conf" in c.lower()]
-    possible_poly = [c for c in df.columns if any(k in c.lower() for k in ("poly", "geom", "wkt"))]
+    possible_poly = [c for c in df.columns if any(k in c.lower()
+                     for k in ("poly", "geom", "wkt", "geometry", "shape"))]
 
-    lat_col  = possible_lat[0]  if possible_lat  else "latitude"
-    lon_col  = possible_lon[0]  if possible_lon  else "longitude"
+    lat_col  = possible_lat[0]  if possible_lat  else "centroid_lat"
+    lon_col  = possible_lon[0]  if possible_lon  else "centroid_lon"
     conf_col = possible_conf[0] if possible_conf else None
     poly_col = possible_poly[0] if possible_poly else None
 
@@ -32,46 +41,42 @@ def load_gob(csv_path, ego_lat, ego_lon, radius_m, conf_min=0.0):
 
     if conf_col:
         df[conf_col] = pd.to_numeric(df[conf_col], errors="coerce").fillna(0)
-        df = df[df[conf_col] >= conf_min]
+        if conf_min > 0:
+            df = df[df[conf_col] >= conf_min]
 
-    lat_deg_per_m = 1 / 111320.0
-    lon_deg_per_m = 1 / (111320.0 * math.cos(math.radians(ego_lat)))
-    lat_range     = radius_m * lat_deg_per_m
-    lon_range     = radius_m * lon_deg_per_m
-
-    nearby = df[
-        (df[lat_col] >= ego_lat - lat_range) &
-        (df[lat_col] <= ego_lat + lat_range) &
-        (df[lon_col] >= ego_lon - lon_range) &
-        (df[lon_col] <= ego_lon + lon_range)
+    lat_deg = radius_m / 111320.0
+    lon_deg = radius_m / (111320.0 * math.cos(math.radians(ego_lat)))
+    nearby  = df[
+        (df[lat_col] >= ego_lat - lat_deg) & (df[lat_col] <= ego_lat + lat_deg) &
+        (df[lon_col] >= ego_lon - lon_deg) & (df[lon_col] <= ego_lon + lon_deg)
     ].copy()
 
     nearby["_dist_m"] = nearby.apply(
-        lambda r: _haversine_m(ego_lat, ego_lon, r[lat_col], r[lon_col]),
-        axis=1
+        lambda r: _haversine_m(ego_lat, ego_lon, r[lat_col], r[lon_col]), axis=1
     )
     nearby = nearby[nearby["_dist_m"] <= radius_m].reset_index(drop=True)
 
     result = []
     for _, row in nearby.iterrows():
+        geom_str = ""
+        fw       = None
+        if poly_col and pd.notna(row.get(poly_col)):
+            geom_str = str(row[poly_col])
+            try:
+                coords = _parse_wkt_polygon(geom_str)
+                if coords and len(coords) >= 2:
+                    fw = _polygon_max_side_m(coords)
+            except Exception:
+                pass
+
         entry = {
             "centroid_lat":  float(row[lat_col]),
             "centroid_lon":  float(row[lon_col]),
             "dist_m":        float(row["_dist_m"]),
             "confidence":    float(row[conf_col]) if conf_col else None,
-            "footprint_w_m": None,
-            "raw":           row.to_dict()
+            "footprint_w_m": fw,
+            "geometry":      geom_str,
         }
-
-        if poly_col and pd.notna(row.get(poly_col)):
-            try:
-                wkt    = str(row[poly_col])
-                coords = _parse_wkt_polygon(wkt)
-                if coords and len(coords) >= 2:
-                    entry["footprint_w_m"] = _polygon_max_side_m(coords)
-            except Exception:
-                pass
-
         result.append(entry)
 
     return result
@@ -95,3 +100,12 @@ def _polygon_max_side_m(coords):
         if d > max_side:
             max_side = d
     return max_side
+
+
+def polygon_centroid(wkt: str):
+    coords = _parse_wkt_polygon(wkt)
+    if not coords:
+        return None, None
+    lats = [c[0] for c in coords]
+    lons = [c[1] for c in coords]
+    return sum(lats) / len(lats), sum(lons) / len(lons)

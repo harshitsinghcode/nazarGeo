@@ -126,7 +126,6 @@ def run_batch(frames, skip_sync=False):
         if r is not None:
             results.append(r)
 
-    # In run_batch.py, replace the summary print block with:
     summary = stabilizer.summary()
     summary_path = os.path.join(cfg.OUT_DIR, "summary/frame_{frame_id:06d}_batch_summary.json")
     with open(summary_path, "w") as f:
@@ -134,7 +133,7 @@ def run_batch(frames, skip_sync=False):
 
     print(f"\n{'='*56}")
     print(f"BATCH SUMMARY  ({summary.get('frames_processed', 0)} frames, "
-        f"{summary.get('tracks_confirmed', 0)} buildings)")
+          f"{summary.get('tracks_confirmed', 0)} buildings)")
     print(f"  mean smoothing   {summary.get('mean_smoothing_delta_m', 0):.2f} m")
     print(f"  max  smoothing   {summary.get('max_smoothing_delta_m', 0):.2f} m")
     print(f"  mean score       {summary.get('mean_raw_score', 0):.1f}/100")
