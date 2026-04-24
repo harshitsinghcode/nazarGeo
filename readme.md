@@ -1,9 +1,9 @@
 # 🛰️ nazarGeo: A Real-Time Multi-Modal System for High-Precision Building Geo-Localization Using LiDAR, Vision, and Sensor Fusion
 
->NazarGeo is a real-time building intelligence pipeline that combines camera perception, LiDAR depth extraction, and ego-pose estimation to compute accurate geo-coordinates of detected structures. The system matches these projections against a geo-spatial building database using a multi-factor scoring mechanism and stabilizes results across frames using tracking and calibration.
+>nazarGeo is a real-time building intelligence pipeline that combines camera perception, LiDAR depth extraction, and ego-pose estimation to compute accurate geo-coordinates of detected structures. The system matches these projections against a geo-spatial building database using a multi-factor scoring mechanism and stabilizes results across frames using tracking and calibration.
 ---
 
-![Project](https://img.shields.io/badge/Project-NazarGeo-black)
+![Project](https://img.shields.io/badge/Project-nazarGeo-black)
 ![Type](https://img.shields.io/badge/System-Geo--Localization-blueviolet.svg)
 ![Approach](https://img.shields.io/badge/Approach-Multi--Modal%20Fusion-success.svg)
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
@@ -54,7 +54,7 @@
 
 ## 1. Project Overview 📽️
 
-**NazarGeo** is a full-stack autonomous building geo-localization pipeline that fuses:
+**nazarGeo** is a full-stack autonomous building geo-localization pipeline that fuses:
 
 - **Camera frames** (4K, 30 fps) from a vehicle-mounted lens
 - **LiDAR point clouds** from dual Velodyne VLP-16 lidars (PCAP streams)
@@ -182,7 +182,7 @@ The polygon-edge error metric measures the distance from the **estimated GPS poi
 ## 4. Repository Structure 🥅
 
 ```
-nazargeo/
+nazarGeo/
 ├── cfg.py                  # All configuration constants
 ├── sync.py                 # Phase 0: IMU/GNSS interpolation → manifest
 ├── lidar_pcap.py           # LiDAR PCAP parser + dual-lidar fusion
